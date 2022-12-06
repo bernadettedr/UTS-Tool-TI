@@ -1,0 +1,6 @@
+UTS Tool 
+UTS tool ini dilakukan dengan cara pemahaman kita terhadap github
+Dimulai dari cara membuat akun
+membuat repository
+mengupload file dan lainnya
+Pada saat ini saya sedang mencontohkan membuat file baru di repository
