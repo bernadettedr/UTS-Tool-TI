@@ -1,0 +1,2 @@
+ini adalah contoh file kedua untuk mengupload file dari komputer
+selain membuat file baru, kita juga bisa mengupload file dari komputer
