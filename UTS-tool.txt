@@ -6,3 +6,4 @@ mengupload file dan lainnya
 Pada saat ini saya sedang mencontohkan membuat file baru di repository
 Tadi saya sudah mencoba mengupload file dari komputer
 saya sekarang sedang mencoba mengedit file pada repository
+Untuk tenggat dari UTS ini adalah tanggal 6 
