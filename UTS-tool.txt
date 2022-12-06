@@ -4,3 +4,5 @@ Dimulai dari cara membuat akun
 membuat repository
 mengupload file dan lainnya
 Pada saat ini saya sedang mencontohkan membuat file baru di repository
+Tadi saya sudah mencoba mengupload file dari komputer
+saya sekarang sedang mencoba mengedit file pada repository
