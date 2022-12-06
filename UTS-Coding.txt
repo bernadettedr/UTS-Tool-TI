@@ -1,0 +1,72 @@
+int main(){
+    int ulang, menu;
+
+    printf("=======================================\n\n");
+    printf("          PROGRAM KALKULATOR   \n\n");
+    printf("=======================================\n\n");
+
+    printf("\tMenu Kalkulator\n\n 1. Penjumlahan\n 2. Pengurangan\n 3. Perkalian\n 4. Pembagian\n 5. Modulus\n\n");
+    printf("Pilih Menu Kalkulasi dengan Memasukkan Nomor Menu (1/2/3/4/5) \n\n");
+    printf("Masukkan menu: ");
+    menu = cek_menu();
+    system("cls");
+
+    if (menu>= 1 && menu < 2){
+        Penjumlahan();
+    }
+        else if (menu>=2 && menu < 3){
+            Pengurangan();
+        }
+            else if(menu>=3 && menu < 4){
+                Perkalian();
+
+            }
+                else if(menu>=4 && menu < 5){
+                   Pembagian();
+
+                }
+                     else if(menu>=5 && menu < 6){
+                        Modulus();
+                    }
+                        else{
+                            printf("Tidak ada pada pilihan menu");
+                        }
+
+    return 0;
+}
+
+void Penjumlahan(){
+    float a, b;
+    float jml;
+    int pilihan;
+
+    printf("=========================\n\n");
+    printf("   PROGRAM PENJUMLAHAN   \n\n");
+    printf("=========================\n\n");
+
+        printf("Masukkan bilangan pertama : ");
+        a = validasiFloat();
+        printf("Masukkan bilangan kedua : ");
+        b = validasiFloat();
+        jml = a+b;
+        printf("Hasil dari penjumlahan : %.2f\n\n\n", jml);
+        printf("Apakah anda ingin mengulang?\n\n\n");
+        printf("============================\n\n");
+        printf("1. Ulang  2. Kembali  3. Exit  \n\n");
+        printf("============================\n\n");
+        printf("Masukkan Menu:");
+        pilihan = cek_ulang();
+        system("cls");
+
+        switch(pilihan){
+	    case 1:
+	    Penjumlahan();
+	    break;
+	    case 2:
+	    main();
+	    break;
+	    default:
+	    exit(0);
+	    break;
+	 }
+}
